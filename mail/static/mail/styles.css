@@ -1,0 +1,55 @@
+textarea {
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(248, 232, 248);
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(214, 176, 255);
+    border-radius: 7px; 
+    
+    background-color: #f4e8ff;
+}
+
+.btn-sm{
+    
+    padding: 5px 10px;
+}
+
+
+.btn-email {
+    margin: 30px auto;
+    padding: 7px 14px;
+    width: 50px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    background-color: #46345ec4;
+    color: white;
+
+    text-align: center;
+}
+
+#body {
+    letter-spacing: 2px;
+    align-items: start;
+    font-family:sans-serif;
+    margin: 10px;
+    
+}
+
+
+.is_read {
+
+    background-color: rgb(164, 180, 208)
+
+}
